@@ -68,7 +68,7 @@ It likely uses direct addressing or other non-comparison techniques
 
 ## In Conclusion
 
-The claim of an $O(n)$ general purpose comparison based sorting algorithm is highly sus.
+The claim of an $O(n)$ general purpose comparison based sorting algorithm is highly suspisious.
 The researcher might have done the following;
   + made a special algorithm made for particular data distribution
   + created something that sways the properties of data types
