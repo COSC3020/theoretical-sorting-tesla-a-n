@@ -37,7 +37,7 @@ By graphing the runtime compared to the size of the input will tell how true the
 
 This will also expose if all input compositions result in a consistant runtime
 
-Comparing this algorithm to other known algorithms can show if the runtime outperforms $O(n log n)$
+Comparing this algorithm to other known algorithms can show if the runtime outperforms $O(n * log(n))$
 
 ## Theoretical Argument
 
@@ -62,6 +62,7 @@ Bucket sort and Radix sort achieve linear or near linear time by:
   - Making assumptions about the input
   - not primarily operating off comparisons
   - trading space for time
+
 This means the claimed algorithm can't truely be comparison based if it's for general, arbitrary inputs.
 It likely uses direct addressing or other non-comparison techniques
 
@@ -81,3 +82,7 @@ An algorithm with linear complexity does not compare two elements at a time with
 [Comparison based sorting](https://www.geeksforgeeks.org/lower-bound-on-comparison-based-sorting-algorithms/)
 
 [Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+
+[Special-Case vs. General Purpose algorithms](https://cs.stackexchange.com/questions/92321/will-we-ever-achieve-a-on-general-purpose-sorting-algorithm-or-at-least-bet)
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
