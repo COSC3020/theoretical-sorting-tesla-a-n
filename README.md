@@ -16,3 +16,23 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+## How I would verify the claim and the method:
+
+**Empirically Testing** - After running multiple arrays of various increasing sizes (such as n = 10, 100, 1000, and so on),
+
+**Finding A Pattern** - Testing for worst case and best case scenarios to see if the claim is misadvertising, giving only
+it's best case for marketing purposes. 
+
+**Testing the Claims** - Making inputs that are as random as possible so the stucture of the input cannot be correlated 
+with the performance of the algorithm or if the algorithm is truely comparison based.
+
+### Expected Results
+
+By graphing the runtime compared to the size of the input will tell how true the " $O(n)$ time " holds for real implementation.
+
+## Theoretical Argument
+
+
+
+
