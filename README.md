@@ -19,25 +19,7 @@ Add your answers to this markdown file.
 
 ## How I would verify the claim and the methods:
 
-**Empirically Testing** - After running multiple arrays of various increasing sizes (such as n = 10, 100, 1000, and so on),
-Measure the actual run time,
-Plot each running time against the input size to find the growth pattern
-Compare with the runtimes of other algorithms and growth rates like $O(n * log(n))$ like mergesort on the same inputs
-
-**Finding A Pattern** - Testing for worst case and best case scenarios to see if the claim is misadvertising, giving only
-it's best case for marketing purposes. I'd also test on arrays with multiple elements that are the same or on
-arrays with various patterns in them in an effort to see if the algorithm has any weakspots with comparisons or shortcuts.
-
-**Testing the Claims** - Making inputs that are as random as possible so the stucture of the input cannot be correlated 
-with the performance of the algorithm or if the algorithm is truely comparison based.
-
-### Expected Results
-
-By graphing the runtime compared to the size of the input will tell how true the " $O(n)$ time " holds for real implementation.
-
-This will also expose if all input compositions result in a consistant runtime
-
-Comparing this algorithm to other known algorithms can show if the runtime outperforms $O(n * log(n))$
+Instead of empirically testing, I'd verify the claim by running different compositions of lists (reverse sorted, sorted, randomly sorted) at linearly increasing sizes. If the claim is true, we should see the runtime should increase at the same rate as the input size increases. For example, if a reverse sorted list with 500 elements took 10 seconds, a reverse sorted list of 1000 elements should take 20 seconds, a reverse sorted list of 1500 elements should take 30 seconds, and so on. Then, I'd observe the same pattern for each of the other compositions. If the runtime does not increase proportionally to the input size the claim is false, otherwise this method would show the claim is true.
 
 ## Theoretical Argument
 
