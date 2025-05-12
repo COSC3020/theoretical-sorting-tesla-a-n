@@ -19,7 +19,7 @@ Add your answers to this markdown file.
 
 ## How I would verify the claim and the methods:
 
-Instead of empirically testing, I'd verify the claim by running different compositions of lists (reverse sorted, sorted, randomly sorted) at linearly increasing sizes. If the claim is true, we should see the runtime should increase at the same rate as the input size increases. For example, if a reverse sorted list with 500 elements took 10 seconds, a reverse sorted list of 1000 elements should take 20 seconds, a reverse sorted list of 1500 elements should take 30 seconds, and so on. Then, I'd observe the same pattern for each of the other compositions. If the runtime does not increase proportionally to the input size the claim is false, otherwise this method would show the claim is true.
+Instead of empirically testing, I'd verify the claim by running different compositions of lists (reverse sorted, sorted, randomly sorted) at linearly increasing sizes. If the claim is true, we should see the runtime should increase at the same rate as the input size increases. For example, if a reverse sorted list with 500 elements took 10 seconds, a reverse sorted list of 1000 elements should take 20 seconds, a reverse sorted list of 1500 elements should take 30 seconds, and so on. Then, I'd observe the same pattern for each of the other compositions. If the runtime does not increase proportionally to the input size this could be evidence claim is false, otherwise this method would show the claim is true.
 
 ## Theoretical Argument
 
